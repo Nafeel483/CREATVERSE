@@ -53,7 +53,7 @@ class Register extends Component {
                 </View>
 
                 <View style={Styles.emailWrapper1}>
-                  <Image source={Images.user} style={Styles.imageIcons} />
+                  <Image source={Images.Phone} style={Styles.imageIcons} />
                   <TextInput
                     style={Styles.emailInput}
                     value={phone}

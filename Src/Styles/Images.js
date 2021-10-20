@@ -17,6 +17,7 @@ const images = {
   back: require('../assests/back.png'),
   email: require('../assests/email.png'),
   user: require('../assests/user.png'),
+  Phone: require('../assests/Phone.png'),
   password: require('../assests/password.png'),
   RegisterBackground: require('../assests/RegisterBackground.png'),
   WaitlistBackground: require('../assests/WaitlistBackground.png'),
