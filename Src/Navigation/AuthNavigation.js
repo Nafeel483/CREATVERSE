@@ -1,14 +1,12 @@
 import { createStackNavigator } from 'react-navigation-stack';
 
-import LoginRegister from '../Screens/Authentication/LoginRegister';
-import Login from '../Screens/Authentication/Login';
-import Signup from '../Screens/Authentication/Signup';
+import Register from '../Screens/Register';
+import WaitList from '../Screens/WaitList';
 
 const AuthNavigation = createStackNavigator(
   {
-    LoginRegister: { screen: LoginRegister },
-    Login: { screen: Login },
-    Signup: { screen: Signup },
+    Register: { screen: Register },
+    WaitList: { screen: WaitList },
 
   },
   {

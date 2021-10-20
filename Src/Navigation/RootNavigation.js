@@ -4,13 +4,14 @@ import { Transition } from 'react-native-reanimated';
 import React from 'react';
 
 import SplashScreen from '../Screens/Splash';
-// import OnBoarding from '../Screens/Onboarding';
-// import AuthNavigation from './AuthNavigation';
+import OnBoarding from '../Screens/Onboarding';
+import AuthNavigation from './AuthNavigation';
 
 const AppNavigator = createAnimatedSwitchNavigator(
   {
     SplashScreen: SplashScreen,
-    // AuthNavigation: AuthNavigation
+    OnBoarding: OnBoarding,
+    AuthNavigation: AuthNavigation
   },
   {
     initialRouteName: 'SplashScreen',

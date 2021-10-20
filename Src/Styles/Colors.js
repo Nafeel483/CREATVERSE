@@ -1,13 +1,14 @@
 const colors = {
   brown: '#D35C05',
   white: '#FFFFFF',
-  blue: '#17288E',
+  blue: '#3772FF',
   black: '#000000',
-  textColor: "#001533",
+  textColor: "#23262F",
   lightGrey: "#C4C4C4",
-  purple: "#57026F",
+  desColor: "#353945",
   grey: "#999999",
-  textInput: "rgba(228,228,228,0.3)"
+  textInput: "rgba(228,228,228,0.3)",
+  dotColor: "rgba(252,252,253,0.50)",
 };
 
 export default colors;

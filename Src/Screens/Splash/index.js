@@ -17,6 +17,13 @@ class SplashScreen extends Component {
     this.state = {};
     this.moved = false;
   }
+  componentDidMount = () => {
+    setTimeout(() => {
+      if (!this.moved) {
+        this.props.navigation.navigate('OnBoarding')
+      }
+    }, 3000);
+  }
   render() {
     return (
       <>

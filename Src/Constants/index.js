@@ -1,20 +1,21 @@
-export const SPLASH_HEADER = "A Retirement Future That Is Secure"
-export const SPLASH_DESCRIPTION = "Being a Entreprenuer is hard enough, we make Retirement easy."
-export const SPLASH_BUTTON = "Start Variable"
 
-export const ONBOARD_FIRST_TITLE = "Your Work is Variable. Your Time is Variable. Your Pay is Variable. Don’t let your Retirement be Variable also."
-export const ONBOARD_FIRST_DES = "We help you build, grow, and secure your retirement future."
 
-export const ONBOARD_SECOND_TITLE = "Grow your Retirement Fund"
-export const ONBOARD_SECOND_DES = "Build your Finacial Future one Variable at a time."
+export const ONBOARD_FIRST_TITLE = "The New NFT Creators Network"
+export const ONBOARD_FIRST_DES = "CREATVERSE  is a platform that aims to build a new creative economy."
+export const ONBOARD_FIRST_DES1 = "Let’s get started & explore our journey in this Creators & Fans Universe"
 
-export const ONBOARD_THIRD_TITLE = "Welcome to Variable"
-export const ONBOARD_THIRD_DES = "Securing Retirement for the Independent"
+export const ONBOARD_SECOND_TITLE = "Get success in the crypto art"
+export const ONBOARD_SECOND_DES = "The Platform aims to help creators take control of their growth and become self-sufficient."
+
+export const ONBOARD_THIRD_TITLE = "Direct Access To Creators’ World"
+export const ONBOARD_THIRD_DES = "A Creators Token entitles Fans to vote on all polls associated with the Creations & Fans can be an integral part of Creators' creative world."
 
 export const SKIP = 'SKIP'
 export const NEXT = "NEXT"
 
-export const CREATE_ACCOUNT = "CREATE YOUR FREE ACCOUNT"
-export const LOGIN_ACCOUNT = "LOG INTO YOUR ACCOUNT"
-export const LOGIN = "LOG IN"
-export const CREATE = "CREATE YOUR ACCOUNT"
+export const REGISTER = "Register"
+export const JOIN = "Join Waitlist"
+
+export const THANKS_HEADER = "You’re on the List!"
+export const THANKS_DES = "Thank you for showing your interest to join CREATVERSE."
+export const THANKS_DES_1 = "We’are backed up with submission,so we’ve added you to our waitlist. Expect an Email soon with your exclusive access link to join our Platfrom."
