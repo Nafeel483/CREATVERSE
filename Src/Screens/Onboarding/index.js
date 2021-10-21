@@ -57,7 +57,8 @@ export default class OnBoarding extends Component {
                 {/* Header */}
                 <View style={Styles.headerWrapper}>
 
-                  <TouchableOpacity style={Styles.skipWrapper}>
+                  <TouchableOpacity onPress={() => { this.props.navigation.navigate('Register') }}
+                  style={Styles.skipWrapper}>
                     <Text style={Styles.skipText}>{Constants.SKIP}</Text>
                   </TouchableOpacity>
 

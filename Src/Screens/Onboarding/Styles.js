@@ -1,6 +1,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 import Metrics from '../../Styles/Metrices';
 import Colors from '../../Styles/Colors';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const widthScreen = Dimensions.get('window').width;
 const styles = StyleSheet.create({
@@ -15,8 +16,8 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   introFirstImage: {
-    width: '95%',
-    height: 275,
+    width: hp(50),
+    height: hp(50),
     alignSelf: 'center',
     marginTop: '20%',
   },
